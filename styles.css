@@ -7,3 +7,11 @@
 body {
   font-family: "Sora", sans-serif;
 }
+
+.hero-img {
+  width: 80%;
+}
+
+img {
+  max-width: 100%;
+}
