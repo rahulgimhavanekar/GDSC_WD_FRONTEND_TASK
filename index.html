@@ -16,7 +16,10 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <h1 class="logo">Saflow</h1>
+      <div class="logo">
+        <img src="./assets/saflow_logo.png" alt="logo" />
+        <h1>Saflow</h1>
+      </div>
       <button class="login-btn">Login</button>
     </header>
 
@@ -29,22 +32,35 @@
             Sit quam dictumst lectus commodo tristique in quis aliquet cursus id
             id urna donec nibh.
           </p>
-          <button class="pricing-btn"></button>
+          <button class="pricing-btn">Pricing and Plans</button>
         </div>
       </section>
       <section class="hero-img">
-        <img src="./hero.png" alt="hero" />
+        <img src="./images/hero.png" alt="hero" />
       </section>
-      <section class="companies"></section>
+      <section class="companies">
+        <img src="./assets/google_logo.png" alt="google" />
+        <img src="./assets/slack_logo.png" alt="slack" />
+        <img src="./assets/amazon_logo.png" alt="amazon" />
+        <img src="./assets/zoom_logo.png" alt="zoom" />
+        <img src="./assets/netflix_logo.png" alt="netflix" />
+      </section>
       <hr />
       <section class="features">
-        <h1 class="heading">Features</h1>
-        <p>
-          In vitae faucibus ipsum netus eget at aenean nunc id tincidunt
-          aliquam!
-        </p>
+        <div class="features-heading">
+          <h1>Features</h1>
+          <p>
+            In vitae faucibus ipsum netus eget at aenean nunc id tincidunt
+            aliquam!
+          </p>
+        </div>
         <div class="features-cards">
           <div class="card">
+            <img
+              class="card-icon"
+              src="./assets/dashboard.png"
+              alt="dashboard"
+            />
             <h4 class="card-title">Dashboard</h4>
             <p class="card-detail">
               A pseudo-Latin text used in web design, layout, and printing in
@@ -53,6 +69,7 @@
             </p>
           </div>
           <div class="card">
+            <img class="card-icon" src="./assets/comment.png" alt="comment" />
             <h4 class="card-title">Comment</h4>
             <p class="card-detail">
               A pseudo-Latin text used in web design, layout, and printing in
@@ -61,6 +78,11 @@
             </p>
           </div>
           <div class="card">
+            <img
+              class="card-icon"
+              src="./assets/tailored_comments.png"
+              alt="tailored_comments"
+            />
             <h4 class="card-title">Tailored Comment</h4>
             <p class="card-detail">
               A pseudo-Latin text used in web design, layout, and printing in
@@ -69,6 +91,11 @@
             </p>
           </div>
           <div class="card">
+            <img
+              class="card-icon"
+              src="./assets/statistics.png"
+              alt="statistics"
+            />
             <h4 class="card-title">Statistics</h4>
             <p class="card-detail">
               A pseudo-Latin text used in web design, layout, and printing in
@@ -77,6 +104,7 @@
             </p>
           </div>
           <div class="card">
+            <img class="card-icon" src="./assets/profiles.png" alt="profiles" />
             <h4 class="card-title">Profiles</h4>
             <p class="card-detail">
               A pseudo-Latin text used in web design, layout, and printing in
@@ -85,6 +113,7 @@
             </p>
           </div>
           <div class="card">
+            <img class="card-icon" src="./assets/folders.png" alt="folders" />
             <h4 class="card-title">Folders</h4>
             <p class="card-detail">
               A pseudo-Latin text used in web design, layout, and printing in
@@ -99,16 +128,40 @@
           <p>READY TO START?</p>
           <h1>Start your free trial today!</h1>
         </div>
-        <button class="get-started-btn">Get Started</button>
+        <button class="get-started-btn">
+          Get Started
+          <img class="arrow" src="./assets/arrow.png" alt="arrow" />
+        </button>
       </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="social-media-links"></div>
+      <div class="social-links">
+        <img
+          class="social-media-icon"
+          src="./assets/facebook.png"
+          alt="facebook"
+        />
+        <img
+          class="social-media-icon"
+          src="./assets/twitter.png"
+          alt="facebook"
+        />
+        <img
+          class="social-media-icon"
+          src="./assets/instagram.png"
+          alt="facebook"
+        />
+        <img
+          class="social-media-icon"
+          src="./assets/linkedin.png"
+          alt="facebook"
+        />
+      </div>
       <div class="terms">
-        <p>Terms & Conditions</p>
-        <p>Privacy Policy</p>
+        <span>Terms & Conditions</span>
+        <span>Privacy Policy</span>
       </div>
       <div class="copyright">
         <p>2022 All Rights Reserved</p>
